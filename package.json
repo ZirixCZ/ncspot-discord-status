@@ -1,5 +1,5 @@
 {
-  "name": "discord-rpc-shenans",
+  "name": "ncspot-discord-status",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",

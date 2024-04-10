@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.logConfigError = exports.config = void 0;
 const fs_1 = __importDefault(require("fs"));
 const os_1 = __importDefault(require("os"));
-const configFilePath = os_1.default.homedir() + "/.config/discordrpcshenanstest/config.json";
+const configFilePath = os_1.default.homedir() + "/.config/ncspot-discord-status/config.json";
 const loadConfigJSON = (path) => {
     if (!fs_1.default.existsSync(path)) {
         console.error(`Config file not found in ${path}`);

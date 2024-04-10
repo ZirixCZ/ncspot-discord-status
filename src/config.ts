@@ -15,7 +15,7 @@ interface Config {
 }
 
 const configFilePath =
-  os.homedir() + "/.config/discordrpcshenanstest/config.json";
+  os.homedir() + "/.config/ncspot-discord-status/config.json";
 
 const loadConfigJSON = (path: string) => {
   if (!fs.existsSync(path)) {
